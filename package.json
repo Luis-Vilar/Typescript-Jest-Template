@@ -1,0 +1,25 @@
+{
+  "name": "typescript-temlate",
+  "version": "1.0.0",
+  "description": "A simple template for TypeScript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "compile": "tsc",
+    "start": "tsc && node dist/main.js",
+    "dev": "tsc -w"
+  },
+  "keywords": [],
+  "author": "Luis Vilar",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "verbose": true,
+    "roots": [
+      "<rootDir>/src"
+    ]
+  }
+}
